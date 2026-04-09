@@ -1,0 +1,63 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: #10002b;
+    color: #e0aaff;
+    border-radius: 5px;
+    width: 375px;
+    margin: 10px;
+}
+
+.conteinerRotulo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 10px;
+}
+
+.conteinerCampos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.campo {
+    display: flex;
+    text-align: center;
+    background-color: #e0aaff;
+    border-width: 0px;
+    color: #10002b;
+    width: 50px;
+    height: 25px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    color: #10002b;
+    width: 50px;
+    height: 25px;
+}
+
+.conteinerBotao {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;    
+    margin: 10px;
+}
+
+.botao {
+    background-color: #5a189a;
+    color: #e0aaff;
+    border-width: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 85px;
+    height: 35px;
+    user-select: none;
+}

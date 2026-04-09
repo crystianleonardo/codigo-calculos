@@ -1,0 +1,38 @@
+.conteiner {
+    background-color: #0d1b2a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    color: #ced4da;
+    margin: 10px;
+}
+
+.conteudo {
+    background-color: #ced4da;
+    color: #0d1b2a;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+
+.subtitulo {
+    margin: 10px 0px;
+}
+
+.texto {
+    margin: 0px 10px;
+}
+
+.textoNegrito {
+    font-weight: 600;
+}
+
+.conteinerExemplos {
+    display: flex;
+    margin: 0px 10px;
+}

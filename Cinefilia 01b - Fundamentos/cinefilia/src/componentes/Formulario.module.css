@@ -1,0 +1,44 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #132a13;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.campo {
+    background-color: #a3b18a;
+    color: #432818;
+    width: 90%;
+    height: 35px;
+    padding: 0px 10px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.botao {
+    background-color: #132a13;
+    border: 2px solid #a3b18a;
+    color: #a3b18a;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    user-select: none;
+}
+
+.mensagem {
+    background-color: #a3b18a;
+    color: #432818;
+    width: 90%;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
