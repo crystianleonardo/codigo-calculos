@@ -1,0 +1,18 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: #10002b;
+    color: #e0aaff;
+    border-radius: 5px;
+    width: 375px;
+    margin: 10px;
+}
+
+.conteinerRotulo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 10px;
+}

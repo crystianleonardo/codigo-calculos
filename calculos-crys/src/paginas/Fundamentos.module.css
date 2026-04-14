@@ -1,0 +1,26 @@
+.conteiner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    color: #0d2e22;
+    margin: 20px;
+}
+
+.subtitulo {
+    color: #3c413f;
+}
+
+.conteudo {
+    background-color: #c5c2b8;
+    border-radius: 10px;
+    color: #0d1b2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 40%;
+}
