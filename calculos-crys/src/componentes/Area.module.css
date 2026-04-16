@@ -1,10 +1,11 @@
+
 .conteiner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    background-color: #10002b;
-    color: #e0aaff;
+    background-color: #dad7cd;
+    color: gb(70, 70, 70);
     border-radius: 5px;
     width: 375px;
     margin: 10px;
@@ -15,4 +16,57 @@
     justify-content: space-evenly;
     width: 95%;
     margin: 10px;
+}
+
+.conteinerCampos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.campo {
+    display: flex;
+    text-align: center;
+    background-color: #c5c2b8;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #10002b;
+    width: 50px;
+    height: 25px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c2b8;
+    color: #10002b;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 50px;
+    height: 25px;
+}
+
+.conteinerBotao {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;    
+    margin: 10px;
+}
+
+.botao {
+    background-color: #c5c2b8;
+    color: rgb(70, 70, 70);
+    border-width: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 85px;
+    height: 35px;
+    user-select: none;
+}
+
+.botao:hover{
+    background-color: #0d2e22;
+    color: white;
 }
