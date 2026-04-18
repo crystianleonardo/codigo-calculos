@@ -1,0 +1,5 @@
+quais calculos fazer:
+
+- Fahrenheint para Celsius (Física)
+- Área do Trapézio (Matematica)
+- Densidade (Química)
