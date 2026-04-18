@@ -1,0 +1,90 @@
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: #dad7cd;
+    color: gb(70, 70, 70);
+    border-radius: 5px;
+    width: 100%;
+    margin: 30px;
+    padding: 20px;
+}
+
+.conteinerRotulo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 5px;
+}
+
+.rotulo {
+    display: flex;
+    text-align: center;
+    color: #10002b;
+    width: 150px;
+    height: 25px;
+}
+
+.rotuloA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #10002b;
+    width: 50px;
+    height: 25px;
+}
+
+.conteinerCampos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 5px;
+}
+
+.campo {
+    display: flex;
+    text-align: center;
+    background-color: #c5c2b8;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #10002b;
+    width: 150px;
+    height: 25px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c2b8;
+    color: #10002b;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 50px;
+    height: 25px;
+}
+
+.conteinerBotao {
+    display: flex;
+    justify-content: left;
+    width: 100%;    
+    margin: 10px;
+}
+
+.botao {
+    background-color: #c5c2b8;
+    color: rgb(70, 70, 70);
+    border-width: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 85px;
+    height: 35px;
+    user-select: none;
+}
+
+.botao:hover{
+    background-color: #0d2e22;
+    color: white;
+}
